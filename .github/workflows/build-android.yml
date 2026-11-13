@@ -26,10 +26,7 @@ jobs:
         working-directory: konkan_kurdish
         run: flutter pub get
 
-      -
-      - name: Build APK
-        working-directory: konkan_kurdish
-        run: flutter build apk --release
+
 
       - uses: actions/upload-artifact@v4
         with:
